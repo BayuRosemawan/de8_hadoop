@@ -1,0 +1,26 @@
+{
+    "postgresql":{
+        "host":"localhost",
+        "db":"postgres",
+        "user":"postgres",
+        "pwd":"postgres",
+        "port":5432
+    },
+    
+    "warehouse":{
+        "host":"localhost",
+        "db":"dwh_digitalskola",
+        "user":"postgres",
+        "pwd":"postgres",
+        "port":5432
+    },
+
+    "hadoop":{
+        "client":"http://localhost:9870"
+    },
+
+    "spark":{
+        "ip":"spark://dataengineering-VirtualBox:7077"
+    }
+
+}
